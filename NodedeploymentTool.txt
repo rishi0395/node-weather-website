@@ -3,7 +3,7 @@ https://devcenter.heroku.com/articles/heroku-cli
 Heroku
 
 Steps: sudo snap install --classic heroku
-2   -   login using cli by heroko login and press any key
+2   -   login using cli by heroku login and press any key
 
 
 ls -a -l ~/.ssh
@@ -44,4 +44,9 @@ two links will generate
 
 then, got to package.json and add start script to type {"start": "node src/app.js"}
 
+do git push all the changes
 
+and type git remote
+will see heroku 
+
+type git push heroku maser and enter
