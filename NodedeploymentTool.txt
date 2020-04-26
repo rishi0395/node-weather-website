@@ -1,0 +1,6 @@
+https://devcenter.heroku.com/articles/heroku-cli
+
+Heroku
+
+Steps: sudo snap install --classic heroku
+2   -   login using cli by heroko login and press any key
