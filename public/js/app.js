@@ -8,7 +8,7 @@ const messageTwo = document.querySelector('#message-2');
 
 const getWeatherApi = (location) => {
   //fetch API is not the JS nor NodeJS api it's a browser based Api which used to fetch the data from URL
-  fetch(`http://localhost:3000/weather?address=${location}`).then((res) => {
+  fetch(`/weather?address=${location}`).then((res) => {
     res.json().then((resp) => {
       if (resp.error) {
         messageOne.textContent = resp.error;
